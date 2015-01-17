@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/play"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/play"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/stop"
+        android:title="@string/stop"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/scores"
+        android:title="@string/scores"
+        android:orderInCategory="3"
+        android:showAsAction="never" />
+    <item android:id="@+id/info"
+        android:title="@string/info"
+        android:orderInCategory="4"
+        android:showAsAction="never" />
+    <item android:id="@+id/empty"
+        android:title="@string/empty"
+        android:orderInCategory="5"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>
